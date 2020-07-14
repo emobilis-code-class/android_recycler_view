@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="60dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/fruits"
+        android:layout_height="60dp"/>
+    <TextView
+        android:id="@+id/txt_fruit_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="24sp"
+        android:padding="10dp"
+        android:text="TextView" />
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:text="Description about this fruit"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
